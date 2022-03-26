@@ -14,7 +14,7 @@
             <h1 class="pt-5 fw-bold">Cerati clock</h1>
         </header>
         <div class="row align">
-            <div class="col-6">
+            <div class="col-md-6">
                 <div class="card text-white rounded m-5 p-3">
 
                     <h2 id="clock">The clock is set in here</h2>
@@ -29,9 +29,10 @@
                 </div>
             </div>
 
-            <div class="col-6">
+            <div class="col-md-6">
                 <div class="card text-white m-5 p-3">
-                    <div class="my-2">
+                    <div class="row">
+                    <div class="my-2 col-md-6">
                         <label class="form-label" for="wakeUpTime">Horario para despertarse</label>
                         <select class="form-control" name="wakeUpTime" id="wakeUpTimeSelector">
                             <option value="1">1 AM - 2AM</option>
@@ -60,7 +61,7 @@
                             <option value="24">12 AM - 1AM</option>
                         </select>
                     </div>
-                    <div class="my-2">
+                    <div class="my-2 col-md-6">
                         <label class="form-label" for="lunchTime">Horario de almuerzo</label>
                         <select class="form-control" name="lunchTime" id="lunchTimeSelector">
                             <option value="1">1 AM - 2AM</option>
@@ -89,7 +90,7 @@
                             <option value="24">12 AM - 1AM</option>
                         </select>
                     </div>
-                    <div class="my-2">
+                    <div class="my-2 col-12">
                         <label class="form-label" for="napTime">Horario de siesta</label>
                         <select class="form-control" name="napTime" id="napTimeSelector">
                             <option value="1">1 AM - 2AM</option>
@@ -117,7 +118,7 @@
                             <option value="23">11 PM - 12AM</option>
                             <option value="24">12 AM - 1AM</option>
                         </select>
-                    <br>
+                    </div>
                     <div>
                         <a class="btn" id="partyTimeButton">Fiesta!</a>
                     </div>
