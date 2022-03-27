@@ -64,7 +64,9 @@ body {
   blockquote:after { content: '"'; }
 
   select {
-    border: yellow;
+    box-shadow: -1px 0px 21px -3px rgba(39,172,242,0.41);
+    -webkit-box-shadow: -1px 0px 21px -3px rgba(39,172,242,0.41);
+    -moz-box-shadow: -1px 0px 21px -3px rgba(39,172,242,0.41);
   }
   
   #lolcat {
