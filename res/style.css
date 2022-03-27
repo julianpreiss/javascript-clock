@@ -86,5 +86,7 @@ body {
     background-color: rgba(10, 175, 230, 1);
   }
 
-
+  .video {
+    height: 300px;
+  }
   
